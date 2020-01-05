@@ -1,5 +1,5 @@
 const clientID = '4615d3b46baa4f53942798b8a52a3570';
-const redirectURI = 'https://jammming-spotify.herokuapp.com/';
+const redirectURI = 'https://jammming-spotify.herokuapp.com';
 
 let accessToken;
 
