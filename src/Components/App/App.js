@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import SearchBar from '../SearchBar/SearchBar';
 import SearchResults from '../SearchResults/SearchResults';
-import PlayList from '../PlayList/PlayList';
+import Playlist from '../Playlist/PlaylPlayListist';
 import Spotify from '../../util/Spotify';
 
 
@@ -75,7 +75,7 @@ class App extends React.Component {
               searchResults={this.state.searchResults}
               onAdd={this.addTrack}
             />
-            <PlayList
+            <Playlist
               playlistName={this.state.playlistName}
               playlistTracks={this.state.playlistTracks}
               onRemove={this.removeTrack}

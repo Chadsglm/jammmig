@@ -1,5 +1,5 @@
 const clientID = '4615d3b46baa4f53942798b8a52a3570';
-const redirectURI = 'https://jammming-spotify.herokuapp.com';
+const redirectURI = 'http://localhost:3000';
 
 let accessToken;
 
@@ -8,7 +8,7 @@ const Spotify = {
     if(accessToken) {
       return accessToken;
     }
-    
+
     // check for access token Match
     const accessTokenMatch = window.location.href.match(/access_token=([^&]*)/);
     const expiresInMatch = window.location.href.match(/expires_in=([^&]*)/);
